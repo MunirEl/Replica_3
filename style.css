@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wraper{
+  margin: 0 auto;
+  width: 500px;
+}
+
+.img-header{
+  background-image: url(/images/header.jpg);
+  width: 300px;
+  height: 200px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 0px;
+  grid-template-areas: "Bath Kitchen Bed Living";
+}
+
+.img-Bath{
+  grid-area: Bath;
+}
+
+.img-Kitchen{
+  grid-area: Kitchen;
+}
+
+.img-Bed{
+  grid-area: Bed;
+}
+
+.img-Living{
+  grid-area: Living;
+}
